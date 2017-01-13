@@ -129,3 +129,26 @@ footer{
     text-align: center;
     color: #666;
   }
+/*||| Price Page |||*/
+/*Gernal Style*/
+table, table th{
+  border: 1px solid #000;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+/*Main Section*/
+.school-price, .other-price-a, .other-price-b, .other-price-c{
+  margin-top: 5rem;
+}
+  .school-price th, .other-price-a th, .other-price-b th, .other-price-c th{
+    font-size: 8rem;
+    background: #666;
+    margin-top: 5rem;
+  }
+  .school-price td, .other-price-a td, .other-price-b td , .other-price-c td{
+    font-size: 6rem;
+    background: #3b5998;
+
+  }
