@@ -1,8 +1,9 @@
 body{
-  background: #000;
+  background: #f1f1f1;
+  padding-top: 160px;
 }
 
-
+/*||| Home Page |||*/
 /*Header Section*/
 .container{}
   header{}
@@ -45,3 +46,77 @@ body{
         .show{ /* For JS - Show content*/
           display: block;
         }
+/*Main Section*/
+main{}
+  main .banner{}
+    main .banner img{
+      width: 100%;
+    }
+  main .after-school{
+    width: 100%;
+    margin-top: 50px;
+  }
+    main .after-school img{
+      width: 100%;
+      border: 2px solid #000;
+    }
+    main .after-school ul{}
+      main .after-school ul li{
+        list-style: none;
+        font-size: 2.5rem;
+      }
+  main .other-program{
+    width: 100%;
+    margin-top: 50px;
+  }
+    main .other-program ul{}
+      main .other-program ul li{
+        list-style: none;
+        font-size: 2.5rem;
+      }
+    main .other-program img{
+      width: 100%;
+      border: 2px solid #000;
+    }
+  main .contact{
+    padding-top: 50px;
+    width: 100%
+  }
+    main .contact h1{
+      font-size: 8rem;
+      text-align: center;
+    }
+    main .contact address{}
+      main .contact address p{}
+        main .contact address ul{}
+          main .contact address ul li{
+            list-style: none;
+            text-align: ;
+            width: 100%;
+            padding-top: 5rem;
+          }
+            main .contact address ul li a{
+              font-size: 5.5rem
+            }
+            main .contact address ul li a: hover{}
+  main .social-media{
+    width: 100%;
+    margin-top: 100px;
+  }
+    main button{
+      height: 15rem;
+      font-size: 8rem;
+      background: #3b5998;
+      color: #f7f7f7;
+      border: 2px solid #000;
+      border-radius: 2%;
+    }
+/*Footer Section*/
+footer{
+  padding: 0;
+  margin: 0;
+}
+  footer h1{
+    text-align: center;
+    color: #666;
+  }
