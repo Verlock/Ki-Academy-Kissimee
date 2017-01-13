@@ -1,3 +1,41 @@
 body{
   background: #000;
 }
+
+
+/*Header Section*/
+.container{}
+  header{}
+    nav{}
+      nav .dropdown{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+      }
+        nav .dropbtn{
+          background-color: #0000e5;
+          color: #fff;
+          font-size: 10rem;
+          border: none;
+          cursor: pointer;
+        }
+        nav .dropbtn:hover, nav .dropbtn:focus{
+          background-color: #0000e5;
+        }
+        nav .dropdown-content{
+          display: none;
+          position: absolute;
+          width: 100%;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+        .dropdown-content a{
+          color: black;
+          padding: 12px 16px;
+          font-size: 12rem;
+          background-color: #fff;
+          text-align: center;
+          border-bottom: 1px solid #000;
+          text-decoration: none;
+          display: block;
+        }
+        .dropdown-content a:hover {background-color: #f1f1f1}
