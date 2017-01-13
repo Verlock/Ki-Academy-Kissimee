@@ -7,28 +7,29 @@ body{
 .container{}
   header{}
     nav{}
-      nav .dropdown{
+      nav .dropdown{ /*Button Container - position content*/
         position: relative;
         display: inline-block;
         width: 100%;
       }
-        nav .dropbtn{
+        nav .dropbtn{ /*Dropdown Button*/
           background-color: #0000e5;
           color: #fff;
           font-size: 10rem;
+          width: 100%;
           border: none;
           cursor: pointer;
         }
-        nav .dropbtn:hover, nav .dropbtn:focus{
+        nav .dropbtn:hover, nav .dropbtn:focus{ /*Dropdown hover & focus*/
           background-color: #0000e5;
         }
-        nav .dropdown-content{
+        nav .dropdown-content{ /*Default Hide content*/
           display: none;
           position: absolute;
           width: 100%;
           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         }
-        .dropdown-content a{
+        .dropdown-content a{ /*Content Link Style*/
           color: black;
           padding: 12px 16px;
           font-size: 12rem;
@@ -38,4 +39,9 @@ body{
           text-decoration: none;
           display: block;
         }
-        .dropdown-content a:hover {background-color: #f1f1f1}
+        .dropdown-content a:hover { /*Color Change when hover - content*/
+          background-color: #f1f1f1
+        }
+        .show{ /* For JS - Show content*/
+          display: block;
+        }
