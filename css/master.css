@@ -131,6 +131,12 @@ footer{
   }
 /*||| Price Page |||*/
 /*Gernal Style*/
+#month{
+  background: #666;
+}
+#price{
+  background: #dfe3ee;
+}
 table, table th{
   border: 1px solid #000;
   width: 100%;
@@ -152,3 +158,33 @@ table, table th{
     background: #3b5998;
 
   }
+
+/*||| Camp Page |||*/
+/*General Style*/
+#camp{
+  background: #FFA500;
+}
+.well{
+  background: #ffc966;
+}
+.camp{}
+  .camp .camp-section-sub{
+    margin-top: 5rem;
+  }
+    .camp h1{
+      text-align: center;
+      color: #fff;
+      font-size: 10rem
+    }
+    .camp img{
+      width: 100%;
+      border: 2px solid #000;
+    }
+    .camp h2{
+      font-size: 7rem;
+      text-align: center;
+    }
+    .camp p{
+      font-size: 5rem;
+      padding: 5%;
+    }
